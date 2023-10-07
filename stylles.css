@@ -39,6 +39,10 @@ nav {
 }
 .links-header > li {
   display: flex;
+  align-items: center;
+}
+.links-header > li:not(:last-child) {
+  margin-right: 30px;
 }
 .nav-link > p {
   color: #212121;
@@ -53,6 +57,41 @@ nav {
   width: 16px;
   height: 12px;
   fill: #757575;
+  margin-right: 10px;
+}
+.smartphone-svg {
+  width: 10px;
+  height: 16px;
+  fill: rgba(117, 117, 117, 1);
+  margin-right: 10px;
+}
+.telemail-header {
+  color: #757575;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.logo-maintext {
+  color: #000;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.logospan-text {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 /* /header */
 /* footer */
@@ -140,12 +179,19 @@ nav {
 }
 .doing-ul {
   display: flex;
+  justify-content: center;
+  padding: 94px;
 }
 .doing-ul > li:not(:last-child) {
   margin-right: 30px;
 }
+.doing-ul > li > img {
+  width: 370px;
+  height: 294px;
+}
 .section-team {
-  padding-top: 188px;
+  background-color: #f5f4fa;
+  padding: 94px;
 }
 .team-ul {
   display: flex;
@@ -174,6 +220,8 @@ nav {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 .team-ul > li > p {
   color: #757575;
@@ -184,4 +232,16 @@ nav {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+}
+.client-section {
+  padding-top: 94px;
+}
+.ul-companies {
+  display: flex;
+  justify-content: center;
+}
+
+.companies-logo {
+  width: 106px;
+  height: 60px;
 }
