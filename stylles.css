@@ -1,0 +1,153 @@
+:root {
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+/* header */
+header {
+  padding: 24px 0px;
+}
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+.navul-header {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 340px;
+}
+.navul-header > li:not(:last-child) {
+  margin-right: 50px;
+}
+nav {
+  display: flex;
+}
+.links-header {
+  display: flex;
+}
+.links-header > li {
+  display: flex;
+}
+.nav-link > p {
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.envelope-svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+/* /header */
+/* footer */
+/* /footer */
+/* main */
+.hero-section {
+  background: url(./assets/imgs/background.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px;
+}
+.h2-hero {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-style: normal;
+  width: 696px;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.button-hero {
+  padding: 10px 32px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+}
+.button-hero > p {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+
+.advantages-h3 {
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.advantages-p {
+  color: #757575;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+.advantages-ul {
+  display: flex;
+}
+.advantages-ul > li:not(:last-child) {
+  margin-right: 30px;
+}
+.advantages-section {
+  padding: 94px 0px;
+}
+.main-heading {
+  color: #212121;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+.doing-ul {
+  display: flex;
+}
+.doing-ul > li:not(:last-child) {
+  margin-right: 30px;
+}
+.logos-portfolio {
+  width: 20px;
+  height: 20px;
+}
+.portfoliologos-ul {
+  display: flex;
+}
