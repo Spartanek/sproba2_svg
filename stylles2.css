@@ -111,4 +111,54 @@ nav > ul {
   border-radius: 4px;
   background: #f5f4fa;
   padding: 6px 22px;
+  border: none;
+}
+.button-ul > li > button > p {
+  color: #212121;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+}
+.button-ul > li > button:hover {
+  background: #2196f3;
+}
+.ul-shopping {
+  padding-top: 55px;
+  padding-bottom: 94px;
+}
+.ul-shopping > li {
+  border: 1px solid #eee;
+  background: #fff;
+}
+.shopping-div {
+  padding: 0 24px;
+  padding-bottom: 24px;
+}
+.ul-shopping > li > img {
+  width: 370px;
+  height: 294px;
+  margin-bottom: 20px;
+}
+.shopping-div > h3 {
+  color: #212121;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 200% */
+  letter-spacing: 1.08px;
+  margin-bottom: 5px;
+}
+.shopping-div > p {
+  color: #757575;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
 }
