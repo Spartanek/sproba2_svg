@@ -50,6 +50,9 @@ nav > ul {
 .ul-nav > li:not(:last-child) {
   margin-right: 50px;
 }
+.ul-nav > li > a:hover > p {
+  color: #2196f3;
+}
 .logo-text > p > span {
   color: #2196f3;
   font-family: 'Raleway';
@@ -59,7 +62,7 @@ nav > ul {
   line-height: normal;
   letter-spacing: 0.78px;
 }
-.ul-nav > li > p {
+.ul-nav > li > a > p {
   color: #212121;
   font-family: 'Roboto';
   font-size: 14px;
@@ -126,9 +129,17 @@ nav > ul {
 .button-ul > li > button:hover {
   background: #2196f3;
 }
+.button-ul > li > button:hover > p {
+  color: #fff;
+}
 .ul-shopping {
   padding-top: 55px;
   padding-bottom: 94px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
 }
 .ul-shopping > li {
   border: 1px solid #eee;
@@ -161,4 +172,86 @@ nav > ul {
   font-weight: 400;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
+}
+footer {
+  background: #2f303a;
+  padding: 60px 0px;
+}
+.telemail-footer-ul {
+  margin-top: 10px;
+}
+.telemail-footer-ul > li > a > p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+.telemail-footer-ul > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+address {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+.logo-footer > p {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.logo-footer > p > span {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.box2 {
+  margin-left: 70px;
+}
+.box2 > p {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.svg-footer {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 1);
+}
+.box2 > ul {
+  display: flex;
+}
+.box2 > ul > li:not(:last-child) {
+  margin-right: 10px;
+}
+.div-svg {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  border-radius: 50%;
+  height: 44px;
+  padding: 12px;
+}
+.div-svg:hover {
+  background: rgba(33, 150, 243, 1);
 }

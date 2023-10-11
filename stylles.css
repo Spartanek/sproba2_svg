@@ -160,6 +160,9 @@ nav {
 .advantages-ul {
   display: flex;
 }
+.advantages-ul > li:before {
+  display: block;
+}
 .advantages-ul > li:not(:last-child) {
   margin-right: 30px;
 }
