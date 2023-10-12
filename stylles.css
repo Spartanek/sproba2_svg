@@ -202,6 +202,7 @@ nav {
 .team-ul > li {
   border-radius: 0px 0px 4px 4px;
   background: #fff;
+  padding-bottom: 30px;
 
   /* material shadow v1 */
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -213,6 +214,28 @@ nav {
 .team-ul > li > img {
   width: 270px;
   height: 260px;
+}
+.teamsvg-ul {
+  display: flex;
+  justify-content: center;
+}
+.svg-team {
+  width: 20px;
+  height: 20px;
+  fill: rgba(175, 177, 184, 1);
+}
+.div-teamsvg {
+  padding: 12px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+}
+.div-teamsvg:hover {
+  background: #2196f3;
+}
+.div-teamsvg:hover > svg {
+  fill: rgba(255, 255, 255, 1);
 }
 .team-ul > li > h4 {
   color: #212121;
@@ -235,6 +258,7 @@ nav {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
+  margin-bottom: 16px;
 }
 .client-section {
   padding-top: 94px;
