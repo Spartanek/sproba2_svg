@@ -161,17 +161,27 @@ nav {
   display: flex;
 }
 /* не працює */
-.advantages-ul > li:before {
+.advantages-ul > li {
+  position: relative;
+}
+/* .advantages-ul > li:before {
   content: '';
   display: block;
-  background: url(./assets/imgs/antenna.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 4px;
-  background: #f5f4fa;
   width: 270px;
   height: 120px;
-}
+  border-radius: 4px;
+  background: #f5f4fa;
+  position: absolute;
+} */
+
+/* .svg-absolute {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+} */
 .advantages-ul > li:not(:last-child) {
   margin-right: 30px;
 }
