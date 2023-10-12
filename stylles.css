@@ -160,8 +160,17 @@ nav {
 .advantages-ul {
   display: flex;
 }
+/* не працює */
 .advantages-ul > li:before {
+  content: '';
   display: block;
+  background: url(./assets/imgs/antenna.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background: #f5f4fa;
+  width: 270px;
+  height: 120px;
 }
 .advantages-ul > li:not(:last-child) {
   margin-right: 30px;
@@ -261,7 +270,7 @@ nav {
   margin-bottom: 16px;
 }
 .client-section {
-  padding-top: 94px;
+  padding: 94px 0px;
 }
 .ul-companies {
   display: flex;
@@ -271,4 +280,91 @@ nav {
 .svg-companieslogo {
   width: 106px;
   height: 60px;
+  padding: 10px 6px;
+  border: 1px solid #afb1b8;
+}
+.ul-companies > li:not(:last-child) {
+  margin-right: 30px;
+}
+footer {
+  background: #2f303a;
+  padding: 60px 0px;
+}
+.telemail-footer-ul {
+  margin-top: 10px;
+}
+.telemail-footer-ul > li > a > p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+.telemail-footer-ul > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+address {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+.logo-footer > p {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.logo-footer > p > span {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.box2 {
+  margin-left: 70px;
+}
+.box2 > p {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.svg-footer {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 1);
+}
+.box2 > ul {
+  display: flex;
+}
+.box2 > ul > li:not(:last-child) {
+  margin-right: 10px;
+}
+.div-svg {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  border-radius: 50%;
+  height: 44px;
+  padding: 12px;
+}
+.div-svg:hover {
+  background: rgba(33, 150, 243, 1);
 }
